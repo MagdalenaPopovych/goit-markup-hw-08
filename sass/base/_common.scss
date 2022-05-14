@@ -1,0 +1,39 @@
+
+:root {
+  --main-font: 'Raleway', sans-serif;
+  --secondary-font: 'Roboto', sans-serif;
+  --hover-color: rgba(33, 150, 243, 0.9);
+  --main-color: #212121;
+  --secondary-color: #757575;
+  --white-color: #FFFFFF;
+  --background-main: #2F303A;
+  --background-color: #F5F4FA;
+  --border-color: #ececec;
+  --icon-color: #AFB1B8;
+  --images-border: #EEEEEE;
+
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding: 0;
+}

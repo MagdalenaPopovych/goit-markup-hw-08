@@ -1,0 +1,103 @@
+.images__list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 64px;
+}
+
+.images__list_item {
+  width: 370px;
+  height: 404px;
+  border: 1px solid var(--images-border);
+  border-radius: 0px 0px 4px 4px;
+
+  flex-basis: calc(100% / 3 - 30px);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition-property: 0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 30px;
+
+  &:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &:hover .images__list_item-text {
+    transform: translateX(0px);
+  }
+}
+
+.images__list_item-container {
+  position: relative;
+  overflow: hidden;
+}
+.images__list_item-text {
+  font-weight: var(--secondary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.555;
+  letter-spacing: 0.03em;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms ease;
+
+  width: 370px;
+  height: 294px;
+  justify-content: center;
+  color: var(--white-color);
+  background: var(--hover-color);
+  padding-left: 24px;
+  padding-top: 49px;
+}
+
+.images__item_container {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--main-color);
+  padding-top: 20px;
+  padding-bottom: 4px;
+  padding-left: 24px;
+  width: 322px;
+  height: 36px;
+  justify-content: flex-start;
+}
+
+.images__item_tittle {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--main-color);
+  padding-top: 20px;
+  padding-bottom: 4px;
+  padding-left: 24px;
+  width: 322px;
+  height: 36px;
+  justify-content: flex-start;
+
+}
+
+.images__item_undertittle {
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  color: var(--secondary-color);
+  padding-bottom: 20px;
+  padding-left: 24px;
+
+}

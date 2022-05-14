@@ -1,0 +1,56 @@
+.navigation__logo {
+  font-family: var(--main-font);
+  width: 145px;
+  height: 31px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+
+  letter-spacing: 0.03em;
+  color: var(--hover-color);
+  text-decoration: none;
+  cursor: pointer;
+  margin-right: 93px;
+  padding-top: 24px;
+}
+
+.navigation__logo-sec {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navigation__logo-down {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+
+  color: var(--hover-color);
+}
+
+.navigation__logo-sec-down {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+.logo__list {
+  display: flex;
+  list-style-type: none;
+
+  &-item:hover {
+    color: var(--hover-color);
+  
+  }
+}
+
+

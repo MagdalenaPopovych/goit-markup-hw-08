@@ -1,0 +1,141 @@
+.header {
+  height: 80px;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.header__container {
+  display: flex;
+}
+
+.navigation {
+  display: flex;
+}
+
+.navigation__list {
+  list-style-type: none;
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.navigation__list-item {
+  padding-right: 46px;
+  position: relative;
+  text-align: center;
+}
+
+.navigation__list-link {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.029;
+  color: var(--main-color);
+  text-decoration: none;
+  position: relative;
+  transition-property: var(--hover-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 4px;
+    border-radius: 2px;
+    top: 43px;
+    left: 1px;
+    background-color: var(--white-color);
+    transition: width 0.5s, left 0.5s;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &:hover::after {
+    width: 100%;
+    background-color: var(--hover-color);
+    transition: width 0.5s, right 0.5s;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &:hover,
+  &:focus {
+    color: var(--hover-color);
+    transition-property: var(--hover-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.address {
+  font-style: normal;
+  cursor: pointer;
+  margin-left: auto;
+  color: var(--secondary-color);
+}
+
+
+.logo__mailto {
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition-property: var(--hover-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover > .logo__icon {
+    fill: var(--hover-color);
+  }
+  &:hover {
+    color: var(--hover-color);
+  }
+}
+
+
+.logo__phone-number {
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  margin-left: 32px;
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition-property: var(--hover-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover > .logo__icon {
+    fill: var(--hover-color);
+  }
+  &:hover {
+    color: var(--hover-color);
+  }
+}
+.logo__icon {
+  font-weight: 700;
+  width: 16px;
+  height: 16px;
+  fill: var(--secondary-color);
+  margin-right: 10px;
+  margin-bottom: -2.5px;
+  transition-property: var(--hover-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    fill: var(--hover-color);
+  }
+}

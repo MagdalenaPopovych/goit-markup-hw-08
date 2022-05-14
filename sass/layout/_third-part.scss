@@ -1,0 +1,35 @@
+.third__part-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 94px;
+}
+.third__part-tittle {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 1.171;
+  color: var(--main-color);
+  padding-top: 160px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+
+.aplication {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.172;
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  margin-top: 224px;
+  margin-left: -370px;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 27px;
+  color: var(--white-color);
+}
