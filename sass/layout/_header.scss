@@ -6,13 +6,13 @@
 
 .container {
   width: 1200px;
-  padding: 0 15px;
   align-items: center;
   margin: 0 auto;
 }
 
 .header__container {
   display: flex;
+
 }
 
 .navigation {
@@ -20,6 +20,7 @@
 }
 
 .navigation__list {
+
   list-style-type: none;
   display: flex;
   padding-top: 32px;
@@ -74,9 +75,11 @@
 }
 
 .address {
+  
   font-style: normal;
   cursor: pointer;
   margin-left: auto;
+  padding-top: 32px;
   color: var(--secondary-color);
 }
 

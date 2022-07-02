@@ -24,7 +24,11 @@
 
     <header class="header">
       <div class="container">
+
         <div class="header__container container">
+          
+
+          
           <nav class="navigation">
             <a class="navigation__logo" href="index.html"
               >Web<span class="navigation__logo-sec">Studio</span></a
@@ -43,8 +47,10 @@
               </li>
             </ul>
           </nav>
+
           <address class="address">
             <nav class="logo__mailto" href="#">
+              
               <ul class="logo__list">
                 <li class="logo__list-item">
                   <div class="logo__email">
@@ -67,8 +73,12 @@
                   </div>
                 </li>
               </ul>
-            </nav>
+            
+            </div>
+            
           </address>
+        </div>
+     
         </div>
       </div>
     </header>
@@ -114,7 +124,7 @@
       <!-- HERO -->
 
       <section class="first__part">
-        <div class="first__part_container container">
+        <div class="container">
           <h1 class="first__part_tittle">EFEKTYWNE ROZWIĄZANIE DLA WASZEGO BIZNESU</h1>
           <button class="bnt" type="button" data-modal-open>
             Zamów usługę
@@ -126,7 +136,7 @@
 
       <!--== SECOUND-PART ==-->
 
-      <section class="secound__part container">
+      <section class="container">
         <ul class="secound__part_list">
           <li class="secound__part_list-item">
             <svg class="secound__part_icon">
@@ -233,8 +243,10 @@
         <!----OUR-TEAM---->
 
         <div class="our__team">
-          <h4 class="our__team-tittle container">Nasz zespół</h4>
-          <ul class="our__team-list container">
+          <h4 class="our__team-tittle">Nasz zespół</h4>
+          <div class="container">
+
+          <ul class="our__team-list">
             <li class="our__team-img">
               <img
                 src="images/img(555).jpg"
@@ -412,6 +424,7 @@
               </li>
           </ul>
         </div>
+        </div>
       </section>
 
 
@@ -587,7 +600,7 @@
   
               <div class="modal-box">
               
-                  <input type="name" name="name" class="modal-name" id="user-name" />
+                  <input type="name" name="name" class="modal-name" id="user-name" required />
                   <svg class="modal-logo" width="17" height="17">
                       <use href="images/sprite.svg#icon-person-black"></use>
                   </svg>
@@ -598,7 +611,7 @@
               
               <div class="modal-box">
               
-                  <input type="phone" name="modal-phone" class="modal-name" id="phone" />
+                  <input type="phone" name="modal-phone" class="modal-name" id="phone" required />
                   <svg class="modal-logo" width="17" height="17">
                       <use href="images/sprite.svg#icon-phone-black"></use>
                   </svg>
@@ -608,7 +621,7 @@
               <label for="email" class="modal-undertittle">Email</label>
               <div class="modal-box">
               
-                  <input type="email" name="email" class="modal-name" id="email" />
+                  <input type="email" name="email" class="modal-name" id="email" required />
                   <svg class="modal-logo" width="19" height="16">
                       <use href="images/sprite.svg#icon-email-black"></use>
                   </svg>
