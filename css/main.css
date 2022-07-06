@@ -589,7 +589,7 @@ p {
 .first__part_tittle {
   font-family: var(--secondary-font);
   width: 696px;
-  height: 120px;
+  max-height: 120px;
   left: 452px;
   top: 280px;
   font-family: var(--secondary-font);
@@ -619,7 +619,7 @@ p {
 
 .secound__part_list-item {
   width: 270px;
-  height: 120px;
+  max-height: 120px;
   background-color: var(--background-color);
   border-radius: 4px;
 }
@@ -663,7 +663,7 @@ p {
   font-size: 36px;
   line-height: 1.171;
   color: var(--main-color);
-  padding-top: 160px;
+  
   padding-bottom: 50px;
   text-align: center;
 }
