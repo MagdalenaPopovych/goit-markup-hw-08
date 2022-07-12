@@ -542,7 +542,6 @@ p {
   font-style: normal;
   cursor: pointer;
   margin-left: auto;
-  padding-top: 32px;
   color: var(--secondary-color);
 }
 
@@ -636,8 +635,8 @@ p {
 .secound__part_list {
   list-style-type: none;
   display: flex;
+  min-height: 439px;
   padding-top: 94px;
-  padding-bottom: 94px;
   justify-content: space-between;
   margin-right: auto;
   margin-left: auto;
@@ -671,14 +670,7 @@ p {
   line-height: 1.714;
   color: var(--secondary-color);
   width: 270px;
-  max-height: 75px;
-  padding-bottom: 94px;
-}
-
-.third__part-list {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
+  min-height: 94px;
   padding-bottom: 94px;
 }
 
@@ -686,12 +678,18 @@ p {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-style: normal;
+  min-height: 94px;
   font-size: 36px;
   line-height: 1.171;
   color: var(--main-color);
-  padding-top: 94px;
-  padding-bottom: 50px;
   text-align: center;
+}
+
+.third__part-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 94px;
 }
 
 .aplication {

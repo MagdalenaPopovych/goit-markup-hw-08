@@ -1,8 +1,8 @@
 .secound__part_list {
   list-style-type: none;
   display: flex;
+  min-height: 439px;
   padding-top: 94px;
-  padding-bottom: 94px;
   justify-content: space-between;
   margin-right: auto;
   margin-left: auto;
@@ -33,6 +33,6 @@
   line-height: 1.714;
   color: var(--secondary-color);
   width: 270px;
-  max-height: 75px;
+  min-height: 94px;
   padding-bottom: 94px;
 }
