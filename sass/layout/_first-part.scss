@@ -1,34 +1,126 @@
-.first__part {
-    max-width: 1600px;
-    height: 600px;
-    background-color: var(--background-main);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-            rgba(47, 48, 58, 0.4)),
-        url('../images/Imgbg.jpg');
-    align-items: center;
-    margin-right: auto;
-    margin-left: auto;
+@media screen and (max-width: 767px){
+
+    .first__part {
+            max-width: 767px;
+            min-height: 400px;
+            background-color: var(--background-main);
+            background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)),
+                url('../images/MOBILE/bg-mobile.jpg');
+            
+            align-items: center;
+            margin-right: auto;
+            margin-left: auto;
+    
+        }
+                 .first__part_tittle {
+                     font-family: var(--secondary-font);
+        
+                     width: 365px;
+                     height: 84px;
+                     left: 57px;
+                     top: 178px;
+                     font-family: var(--secondary-font);
+                     font-style: normal;
+                     font-weight: 900;
+                     font-size: 26px;
+                     line-height: 1,615;
+        
+                     justify-content: center;
+                     text-align: center;
+                     letter-spacing: 0.06em;
+                     text-transform: uppercase;
+                     color: var(--white-color);
+                     padding-top: 118px;
+                     margin-right: auto;
+                     margin-left: auto;
+                     vertical-align: top;
+                 }
 
 }
-.first__part_tittle {
-    font-family: var(--secondary-font);
 
-    width: 696px;
-    height: 120px;
-    left: 452px;
-    top: 280px;
-    font-family: var(--secondary-font);
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.363;
+@media screen and (min-width: 768px) and (max-width:1199px){
 
-    justify-content: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--white-color);
-    padding-top: 200px;
-    margin-right: auto;
-    margin-left: auto;
+    .first__part {
+            max-width: 1199px;
+            min-height: 400px;
+            background-color: var(--background-main);
+            background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)),
+                url('/images/TABLETS/bg-tablets.jpg');
+    
+            align-items: center;
+            margin-right: auto;
+            margin-left: auto;
+    
+        }
+
+    .first__part_tittle {
+            font-family: var(--secondary-font);
+
+            width: 365px;
+            height: 84px;
+            left: 202px;
+            top: 198px;
+            font-family: var(--secondary-font);
+            font-style: normal;
+            font-weight: 900;
+            font-size: 26px;
+            line-height: 1.615;
+
+            justify-content: center;
+            text-align: center;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: var(--white-color);
+            padding-top: 118px;
+            margin-right: auto;
+            margin-left: auto;
+            vertical-align: top;
+        }
+
+
 }
+
+@media screen and (min-width: 1200px){
+    .first__part {
+            max-width: 1600px;
+            min-height: 600px;
+            background-color: var(--background-main);
+            background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)),
+                url('../images/Imgbg.jpg');
+            align-items: center;
+            margin-right: auto;
+            margin-left: auto;
+    
+        }
+    
+        .first__part_tittle {
+            font-family: var(--secondary-font);
+    
+            width: 696px;
+            height: 120px;
+            left: 452px;
+            top: 280px;
+            font-family: var(--secondary-font);
+            font-style: normal;
+            font-weight: 900;
+            font-size: 44px;
+            line-height: 1.363;
+    
+            justify-content: center;
+            text-align: center;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: var(--white-color);
+            padding-top: 200px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+}
+
+
+
+
